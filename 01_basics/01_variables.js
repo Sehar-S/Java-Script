@@ -1,13 +1,13 @@
-const accountId = 1234567
-let accountEmail = "sehar@google.com"
-var accountPassword = "3456884"
-accountCity = pakistan
+const accountId = 1234567    //can't change
+let accountEmail = "sehar@google.com"   // change values allowe
+var accountPassword = "3456884"    // old way avoid this 
+let accountState 
 
-accountEmail = "hc@hc.com"
+
+accountEmail = "hc@hc.com" 
 accountPassword = "21212121"
-accountCity = "Bengaluru"
 
 
 
 
-console.log(accountId);
+console.table([accountEmail,accountId,accountPassword,accountState])
